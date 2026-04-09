@@ -5,21 +5,21 @@
 class A365 < Formula
   desc "CLI for Microsoft 365 via agent365 MCP servers"
   homepage "https://github.com/sozercan/a365cli"
-  version "0.2.2"
+  version "0.2.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/sozercan/a365cli/releases/download/v0.2.2/a365_0.2.2_darwin_amd64.tar.gz"
-      sha256 "6fc074ab11a590f2a19fd63fd27e722300eef4fb8bb1362a74796337ae02faa4"
+      url "https://github.com/sozercan/a365cli/releases/download/v0.2.4/a365_0.2.4_darwin_amd64.tar.gz"
+      sha256 "076618a5f9d3f1bb5a776150915e01292409a1824e9189256f62a715ada43d44"
 
       define_method(:install) do
         bin.install "a365"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/sozercan/a365cli/releases/download/v0.2.2/a365_0.2.2_darwin_arm64.tar.gz"
-      sha256 "b47ec6d2b9ff2a2cbca23f7088942e81d44c8e6338686fccf2ea30ea57e08cf7"
+      url "https://github.com/sozercan/a365cli/releases/download/v0.2.4/a365_0.2.4_darwin_arm64.tar.gz"
+      sha256 "54c5028b071c894db24d8cb2b6f01ffa5b6891666f981d4a6800bda33182112a"
 
       define_method(:install) do
         bin.install "a365"
@@ -29,15 +29,15 @@ class A365 < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/sozercan/a365cli/releases/download/v0.2.2/a365_0.2.2_linux_amd64.tar.gz"
-      sha256 "9439035314bbbccfc8c3a53679f6bda2bd891fa9a6cb337ca4e70ea14c8c45a4"
+      url "https://github.com/sozercan/a365cli/releases/download/v0.2.4/a365_0.2.4_linux_amd64.tar.gz"
+      sha256 "3c75ea390f0dbd3f3418a043d24164b9b232944fb7949150d1afba0a3ca1f57b"
       define_method(:install) do
         bin.install "a365"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/sozercan/a365cli/releases/download/v0.2.2/a365_0.2.2_linux_arm64.tar.gz"
-      sha256 "73a1aaf5bd270c88887b5cf457a6a7238936fdb25b8d40c260ee3a8c5dead5cd"
+      url "https://github.com/sozercan/a365cli/releases/download/v0.2.4/a365_0.2.4_linux_arm64.tar.gz"
+      sha256 "6e74c59b4408398fab685a4edd48d23a30c0a6c085a04bf49a8815acff29b161"
       define_method(:install) do
         bin.install "a365"
       end
