@@ -14,11 +14,13 @@ Then install any of the packages below.
 
 ## Available Casks
 
+<!-- CASKS:BEGIN -->
 | Cask | Description |
 |------|-------------|
 | [ayna](https://github.com/sozercan/ayna) | Native macOS/iOS/watchOS ChatGPT client |
-| [kaset](https://github.com/sozercan/kaset) | Native YouTube Music client for macOS |
+| [kaset](https://github.com/sozercan/kaset) | Native YouTube Music client |
 | [vekil](https://github.com/sozercan/vekil) | Proxy Anthropic, Gemini, and OpenAI clients through GitHub Copilot |
+<!-- CASKS:END -->
 
 Install a cask:
 
@@ -30,9 +32,11 @@ brew install --cask sozercan/repo/<cask-name>
 
 ## Available Formulae
 
+<!-- FORMULAE:BEGIN -->
 | Formula | Description |
-|---------|-------------|
+|------|-------------|
 | [a365](https://github.com/sozercan/a365cli) | CLI for Microsoft 365 via agent365 MCP servers |
+<!-- FORMULAE:END -->
 
 Install a formula:
 
