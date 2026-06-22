@@ -11,7 +11,7 @@ cask "kaset" do
   # Homebrew casks can gate on macOS release symbols, but not this
   # app's exact 15.4 patch minimum; LSMinimumSystemVersion and
   # Sparkle's appcast enforce 15.4 at launch/update time.
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Kaset.app"
 

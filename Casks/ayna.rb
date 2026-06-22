@@ -8,7 +8,7 @@ cask "ayna" do
   homepage "https://github.com/sozercan/ayna"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Ayna.app"
 
