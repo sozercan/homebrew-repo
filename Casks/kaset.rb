@@ -1,6 +1,6 @@
 cask "kaset" do
-  version "0.11.0"
-  sha256 "aa48c7fe2d2e487ef2e183e17c2f26abad2a8d38b41cba515842c3c0b916a8b3"
+  version "0.12.0"
+  sha256 "9702b145471fae8f34191e660a56a3efe7ce4603aa27c21cd0a22d83729d8b96"
 
   url "https://github.com/sozercan/kaset/releases/download/v#{version}/kaset-v#{version}.dmg"
   name "Kaset"
@@ -11,7 +11,7 @@ cask "kaset" do
   # Homebrew casks can gate on macOS release symbols, but not this
   # app's exact 15.4 patch minimum; LSMinimumSystemVersion and
   # Sparkle's appcast enforce 15.4 at launch/update time.
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Kaset.app"
 
