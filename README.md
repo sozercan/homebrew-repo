@@ -19,6 +19,7 @@ Then install any of the packages below.
 |------|-------------|
 | [ayna](https://github.com/sozercan/ayna) | Native macOS/iOS/watchOS ChatGPT client |
 | [kaset](https://github.com/sozercan/kaset) | Native YouTube Music client |
+| [open-in-code](https://github.com/sozercan/OpenInCode) | Open the current Finder folder in Visual Studio Code |
 | [vekil](https://github.com/sozercan/vekil) | Proxy Anthropic, Gemini, and OpenAI clients through GitHub Copilot |
 <!-- CASKS:END -->
 
