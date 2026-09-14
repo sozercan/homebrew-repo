@@ -15,8 +15,8 @@ cask "kaset" do
 
   app "Kaset.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Kaset.app"], sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Kaset.app"], must_succeed: false
   end
 
   zap trash: [
