@@ -17,6 +17,7 @@ Then install any of the packages below.
 <!-- CASKS:BEGIN -->
 | Cask | Description |
 |------|-------------|
+| [arin](https://github.com/sozercan/arin) | Finds caches, build output and stale worktrees that are safe to delete |
 | [ayna](https://github.com/sozercan/ayna) | Native agentic AI client built with SwiftUI |
 | [kaset](https://github.com/sozercan/kaset) | Native YouTube Music client |
 | [open-in-code](https://github.com/sozercan/OpenInCode) | Open the current Finder folder in Visual Studio Code |
