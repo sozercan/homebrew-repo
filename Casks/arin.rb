@@ -1,6 +1,6 @@
 cask "arin" do
-  version "0.2.0"
-  sha256 "f7ee9610d79055e5ea04938d71322cfd4fe7adba2560330c7405ba24c0d4493e"
+  version "0.3.0"
+  sha256 "7373c31563396e69a32eb96c8e3b0ba8366f847d25c3130dfcfb414e16a1cd29"
 
   url "https://github.com/sozercan/arin/releases/download/v#{version}/arin-v#{version}.dmg"
   name "Arin"
