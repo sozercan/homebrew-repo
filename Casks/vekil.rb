@@ -1,6 +1,6 @@
 cask "vekil" do
-  version "0.14.14"
-  sha256 "7d9739eb91c34dcf1f915b1e36e16be7b086942710770d5c7a0297848bcc3f50"
+  version "0.15.0"
+  sha256 "0deebac28923fb84a9bc8a28fd51e03688e2852368cf755f03fec3e9b4c342b9"
 
   url "https://github.com/sozercan/vekil/releases/download/v#{version}/vekil-macos-arm64.zip"
   name "Vekil"
@@ -11,8 +11,8 @@ cask "vekil" do
 
   app "Vekil.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Vekil.app"], sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Vekil.app"], sudo: false, must_succeed: false
   end
 
   zap trash: [
